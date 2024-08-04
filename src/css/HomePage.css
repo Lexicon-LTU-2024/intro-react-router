@@ -1,0 +1,12 @@
+.home-page .header {
+  flex: 1;
+}
+
+.home-page .description {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+
+  flex: 1;
+}
