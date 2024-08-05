@@ -19,19 +19,19 @@ export const employees: IEmployee[] = [
     title: ["Team Leader"],
   },
   {
-    id: "1",
+    id: "2",
     image: images.ironman,
     name: "Iron Man",
     title: ["Genius", "Billionaire", "Playboy", "Philanthropist"],
   },
   {
-    id: "1",
+    id: "3",
     image: images.thor,
     name: "Thor",
     title: ["God of Thunder"],
   },
   {
-    id: "1",
+    id: "4",
     image: images.hulk,
     name: "Hulk",
     title: ["Strongest Avenger"],

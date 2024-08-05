@@ -29,3 +29,5 @@ export const routerWithJsx = createBrowserRouter(
 // Each object in this router is its own route that have several attributes it can use. It can also have children routes.
 
 // "/" is always the start url of an application
+
+// The router will concatenate the parent path with the child paht to loog for matches with the current url in the browser.
