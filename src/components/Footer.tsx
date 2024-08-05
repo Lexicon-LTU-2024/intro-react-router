@@ -6,7 +6,7 @@ export function Footer(): ReactElement {
     <footer className="footer">
       <p>© 2024 Avengers Initiative. All rights reserved.</p>
       <div className="links">
-        <Link to="/home">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/about">About</Link>
         <Link to="/join-us">Join</Link>
 

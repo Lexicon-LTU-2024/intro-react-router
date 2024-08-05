@@ -8,7 +8,7 @@ export const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
-      { path: "home", element: <HomePage /> },
+      { index: true, element: <HomePage /> },
       { path: "about", element: <AboutPage /> },
       { path: "join-us", element: <JoinUsPage /> },
     ],
@@ -19,7 +19,7 @@ export const router = createBrowserRouter([
 export const routerWithJsx = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
-      <Route path="home" element={<HomePage />} />
+      <Route index element={<HomePage />} />
       <Route path="about" element={<AboutPage />} />
       <Route path="join-us" element={<JoinUsPage />} />
     </Route>
