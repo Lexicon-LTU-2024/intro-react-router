@@ -3,6 +3,7 @@ import { TButtonType, TButtonVariant } from "../interfaces";
 
 interface IButtonProps {
   children: ReactNode;
+  onClick?: () => void;
   type?: TButtonType;
   variant?: TButtonVariant;
 }
@@ -15,7 +16,7 @@ export function Button(props: IButtonProps): ReactElement {
   }
 
   return (
-    <button type={props.type} className={classes.join(" ")}>
+    <button type={props.type} className={classes.join(" ")} onClick={props.onClick}>
       {props.children}
     </button>
   );
